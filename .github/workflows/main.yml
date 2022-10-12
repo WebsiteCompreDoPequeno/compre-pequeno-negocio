@@ -1,0 +1,29 @@
+on:
+  push
+
+jobs:
+  typechecks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload do repositório
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.17.0
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: EsLint
+        run: npx eslint .
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "compre-pequeno-negocio"
+          heroku_email: "victor.men.dev@gmail.com"           

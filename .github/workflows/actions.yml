@@ -1,0 +1,21 @@
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  typechecks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload do repositório
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.17.0
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: EsLint
+        run: npx eslint .
