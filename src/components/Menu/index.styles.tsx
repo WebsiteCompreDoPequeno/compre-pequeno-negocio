@@ -38,10 +38,7 @@ export const OptionMenu = styled.h1`
   justify-content: center;
   align-items: center;
 
-  a:visited {
-    color: ${GlobalConstants.purpleBlue};
-  }
-  a:hover {
+  :hover {
     cursor: pointer;
     transition: all ease 0.25s;
     color: ${GlobalConstants.gray};
