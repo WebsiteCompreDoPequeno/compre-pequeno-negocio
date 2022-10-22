@@ -1,10 +1,43 @@
-import { MenuDesktop } from '../components/MenuDesktop'
+import { PagesContainer } from '../components/PagesContainer'
 
 export default function Home() {
   return (
-    <>
-      <MenuDesktop />
-      <h1>Home</h1>
-    </>
+    <PagesContainer>
+      <>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+      </>
+    </PagesContainer>
   )
 }
