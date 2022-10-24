@@ -1,7 +1,7 @@
 import { CompanyCard } from '../components/CompanyCard'
 import { PagesContainer } from '../components/PagesContainer'
 import { companies } from '../services/companies'
-import { HomeContainer } from './home/indes.styles'
+import { HomeContainer } from '../styles/home.styles'
 
 export default function Home() {
   return (
