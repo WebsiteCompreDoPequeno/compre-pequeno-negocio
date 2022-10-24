@@ -27,7 +27,7 @@ export const PagesContainer: React.FunctionComponent<OwnProps> = ({
   return (
     <Styles.MainContainer>
       <Menu isInTheTop={isInTheTop} />
-      <Styles.Content>{children}</Styles.Content>
+      <Styles.Content isInTheTop={isInTheTop}>{children}</Styles.Content>
     </Styles.MainContainer>
   )
 }
