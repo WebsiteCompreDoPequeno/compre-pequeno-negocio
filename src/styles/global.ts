@@ -1,16 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
-import * as GlobalConstants from './global.constants'
 
 const GlobalStyle = createGlobalStyle`
   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-  }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: ${GlobalConstants.gray};
   }
 
   html {
@@ -22,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
       font-family: 'Poppins', sans-serif;
-      background: var(--background);
+      background-color: #FF9A9A;
       -webkit-font-smoothing: antialiased;
     }
     border-style, input, textarea, button {

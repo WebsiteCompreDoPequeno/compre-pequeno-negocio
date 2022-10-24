@@ -14,6 +14,7 @@ export const MainContainerMenu = styled.div<{ isInTheTop: boolean }>`
   height: ${({ isInTheTop }) => (isInTheTop ? '14rem' : '4rem')};
   gap: 1rem;
   padding: 1rem 0 1rem 0;
+  box-shadow: 0 5px 15px black;
 `
 
 export const SubContainerMenu = styled.div`
