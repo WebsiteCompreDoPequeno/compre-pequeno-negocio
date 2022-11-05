@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import { PagesContainer } from '../../../components/PagesContainer'
 import { companies } from '../../../services/companies'
-import * as Styled from './index.styles'
+import * as Styled from './styles'
 
 interface IParams extends ParsedUrlQuery {
   companyName: string
