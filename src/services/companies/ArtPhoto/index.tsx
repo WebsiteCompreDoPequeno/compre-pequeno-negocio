@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const artPhoto: CompanyContent = {
   title: 'Art Photo',
-  cardImage: 'artPhotoLogo',
+  cardImage: <Image src={ArtPhotoLogo} />,
   contents: [
     [
       {

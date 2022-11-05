@@ -5,6 +5,6 @@ export interface ContentType {
 
 export interface CompanyContent {
   title: string
-  cardImage: string
+  cardImage: JSX.Element
   contents: ContentType[][]
 }
