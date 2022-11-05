@@ -14,7 +14,7 @@ export const artPhoto: CompanyContent = {
             Já pensou em presentear pessoas que você ama hoje?? <br />A Art
             Photo é uma ótima empresa e opção que além de fazer tudo com muito
             amor possui diversas opções como chaveiro, caneca, quadros
-            personalizados, polaroid.
+            personalizados e polaroid.
           </p>
         )
       },
