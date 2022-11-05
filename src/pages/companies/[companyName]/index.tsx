@@ -54,7 +54,9 @@ export default function Company({ companyName }: OwnProps) {
                     {ct.content}
                   </Styled.ContentContainer>
                 ) : (
-                  <Styled.ImageContainer>{ct.content}</Styled.ImageContainer>
+                  <Styled.ImageContainer key={i}>
+                    {ct.content}
+                  </Styled.ImageContainer>
                 )
               )}
             </Styled.LineContainer>
