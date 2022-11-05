@@ -18,13 +18,13 @@ export const CardContainer = styled.div`
   }
 `
 
-export const ImageContainer = styled.div<{ image: string }>`
+export const ImageContainer = styled.div`
   width: 300px;
   height: 300px;
-  background-image: ${({ image }) => `url(${image})`};
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px 5px 0 0;
+
+  img {
+    border-radius: 5px 5px 0 0;
+  }
 `
 
 export const TitleContainer = styled.span`

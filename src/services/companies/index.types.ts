@@ -1,6 +1,6 @@
 export interface ContentType {
   type: 'img' | 'text'
-  content: string
+  content: JSX.Element
 }
 
 export interface CompanyContent {
