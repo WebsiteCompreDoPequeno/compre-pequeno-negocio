@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import * as GlobalConstants from '../../../styles/global.constants'
+import * as GlobalConstants from './global.constants'
 
 export const MainContainer = styled.div`
   gap: 2rem;
