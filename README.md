@@ -1,6 +1,7 @@
 # Projeto Integrador Compre do Pequeno Negócio - SITE
 
-### [https://compre-pequeno-negocio.com/](https://compre-pequeno-negocio.herokuapp.com/)
+### SITE: [https://compre-pequeno-negocio.herokuapp.com/](https://compre-pequeno-negocio.herokuapp.com/)
+### REPO: [https://github.com/WebsiteCompreDoPequeno/compre-pequeno-negocio](https://github.com/WebsiteCompreDoPequeno/compre-pequeno-negocio)
 
 ## Requisitos para rodar o projeto:
 * Node >= 16 (usar NVM de preferência) => [Instalação do NVM](https://github.com/nvm-sh/nvm)
@@ -10,6 +11,17 @@
   * eslint
   * prettier eslint
   * pretier - code formatter
+  
+## Tecnologias Utilizadas:
+* Node 16
+* Yarn
+* EsLint - Monitorar o código e aplicar regras
+* Prettier - Formatador de código
+* Styled-components - CSS in JS
+* Next Js
+* Typescript
+* CI e CD github
+* Heroku - hospedagem
 
 # Rodando o projeto
   1) Clonar repositório.
